@@ -15,7 +15,7 @@ namespace MoodAnaluserPrograms
         }
         public string CheckMoodAnalyser()
         {
-            if (message.ToLower().Contains("sad"))
+            if (this.message.ToLower().Contains("sad"))
             {
                 return "Sad";
             }
